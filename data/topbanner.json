@@ -1,0 +1,44 @@
+[
+    {
+        "id" : 1,
+        "page" : "company",
+        "imgUrl" : "https://www.dktechin.com/service/assets/images/img_visual_company.png",
+        "tit": "회사소개"
+    },
+    {
+        "id" : 2,
+        "page" : "welfare",
+        "imgUrl" : "https://www.dktechin.com/service/assets/images/img_visual_company.png",
+        "tit": "복지제도"
+    },
+    {
+        "id" : 3,
+        "page" : "way",
+        "imgUrl" : "https://www.dktechin.com/service/assets/images/img_visual_company.png",
+        "tit": "오시는길"
+    },
+    {
+        "id" : 4,
+        "page" : "service",
+        "imgUrl" : "https://www.dktechin.com/service/assets/images/img_visual_company.png",
+        "tit": "IT Service"
+    },
+    {
+        "id" : 5,
+        "page" : "talent",
+        "imgUrl" : "https://www.dktechin.com/service/assets/images/img_visual_company.png",
+        "tit": "인재상"
+    },
+    {
+        "id" : 6,
+        "page" : "way",
+        "imgUrl" : "https://www.dktechin.com/service/assets/images/img_visual_company.png",
+        "tit": "영입절차"
+    },
+    {
+        "id" : 7,
+        "page" : "contact",
+        "imgUrl" : "https://www.dktechin.com/service/assets/images/img_visual_company.png",
+        "tit": "고객문의"
+    }
+]

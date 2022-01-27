@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-github-pages/static/css/main.f3ca89bf.css",
+    "main.js": "/react-github-pages/static/js/main.acab5e2a.js",
+    "static/js/787.a8a4bfcf.chunk.js": "/react-github-pages/static/js/787.a8a4bfcf.chunk.js",
+    "static/media/ico_comm.png": "/react-github-pages/static/media/ico_comm.a3b58e7d897e00687258.png",
+    "static/media/sinsabridge-ci.png": "/react-github-pages/static/media/sinsabridge-ci.6b7754e3f9764aacffed.png",
+    "static/media/slick.svg": "/react-github-pages/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/react-github-pages/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/react-github-pages/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/react-github-pages/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/react-github-pages/index.html",
+    "main.f3ca89bf.css.map": "/react-github-pages/static/css/main.f3ca89bf.css.map",
+    "main.acab5e2a.js.map": "/react-github-pages/static/js/main.acab5e2a.js.map",
+    "787.a8a4bfcf.chunk.js.map": "/react-github-pages/static/js/787.a8a4bfcf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3ca89bf.css",
+    "static/js/main.acab5e2a.js"
+  ]
+}
