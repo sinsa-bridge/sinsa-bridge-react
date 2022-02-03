@@ -35,7 +35,7 @@ const SimpleSlider = ()=>{
     const [slideList,setSlideList]=useState([]);
 
     useEffect(()=>{
-        fetch('/data/slide.json',{
+        fetch('/sinsa-bridge-react/data/slide.json',{
             method: 'GET'
         })
         .then(res => res.json())

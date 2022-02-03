@@ -6,7 +6,7 @@ function TopBanner({topBannerID}){
     const [banner, setBanner] = useState([]);
 
     useEffect(()=>{
-        fetch('/data/topbanner.json',{
+        fetch('/sinsa-bridge-react/data/topbanner.json',{
             method: 'GET'
         })
          .then(res => res.json())
