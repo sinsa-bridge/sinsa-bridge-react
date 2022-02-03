@@ -4,7 +4,7 @@ import Footer from "../Footer";
 
 function Process(){
 
-    const headerStyle=true;
+    const headerStyle=false;
     const topBannerID=6;
 
     return(

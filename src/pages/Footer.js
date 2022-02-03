@@ -15,7 +15,7 @@ function Footer(){
                     <span>경기도 김포시 김포한강9로75번길 158 KR 이편한세상시티 한강신도시 A307</span>
                     <span>대표이사: 홍길동</span>
                     <span>대표전화: 00-000-0000</span>
-                    <p className="copyright">© dktechin Corp. All rights reserved.</p>
+                    <p className="copyright">© sinsabridge Corp. All rights reserved.</p>
                 </div>
 
                 {/* <div className="btn">

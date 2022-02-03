@@ -7,7 +7,7 @@ import mission02 from '../../assets/img/company-mission-02.png';
 
 function Company(){
 
-    const headerStyle=true;
+    const headerStyle=false;
     const topBannerID=1;
 
     return(
@@ -25,14 +25,14 @@ function Company(){
                     IT기술 각 분야의 상호 협력을 통해 비즈니스의 성공 및 혁신을 함께하고,<br/>
                     더 큰 가치를 만들어가는 기업
                 </p>
-                <div className="mission-img">
-                    <figure>
+                <div className="mission-img row"> 
+                    <figure className="col-md-6">
                         <img src={mission01} />
                         <figcaption></figcaption>
                     </figure>
-                    <figure>
+                    <figure className="col-md-6">
                         <img src={mission02} />
-                        <figcaption>디케이테크인은 IT 기술적 가치 창출로 고객과 세상의 새로운 연결을 만들어가기 위해 존재합니다.</figcaption>
+                        <figcaption></figcaption>
                     </figure>
                 </div>
             </div>

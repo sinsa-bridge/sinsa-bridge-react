@@ -4,7 +4,7 @@ import Footer from "../Footer";
 
 function Welfare(){
 
-    const headerStyle=true;
+    const headerStyle=false;
     const topBannerID=2;
 
     return(

@@ -5,7 +5,7 @@ import ciImg from '../../assets/img/sinsabridge-ci.png';
 
 function Service(){
 
-    const headerStyle=true;
+    const headerStyle=false;
     const topBannerID=4;
 
     return(

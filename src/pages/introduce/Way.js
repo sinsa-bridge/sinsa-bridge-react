@@ -4,7 +4,7 @@ import Footer from "../Footer";
 
 function Way(){
 
-    const headerStyle=true;
+    const headerStyle=false;
     const topBannerID=3;
 
     return(

@@ -4,7 +4,7 @@ import Footer from "../Footer";
 import ciImg from '../../assets/img/sinsabridge-ci.png';
 
 function Talent(){
-    const headerStyle=true;
+    const headerStyle=false;
     const topBannerID=5;
 
     return(

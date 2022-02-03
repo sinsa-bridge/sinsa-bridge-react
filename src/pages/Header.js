@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import ciImg from '../assets/img/sinsabridge-ci.png';
+import closeicon from '../assets/img/close.png';
+import menuicon from '../assets/img/menu.png';
 
 function Header({headerStyle}) {
 
@@ -47,7 +49,7 @@ function Header({headerStyle}) {
               <h1 className='navbar-brand'><Link to="/">SINSA BRIDGE</Link></h1>
                 <ul className='navbar-nav' >
                   <li className='nav-item'>
-                    <a href="#">회사소개</a>
+                    <Link to="/Company">회사소개</Link>
                     <ul className={ mouseOver == false ? "subnav hidden" : "subnav open" }>
                       <li><Link to="/Company">신사브릿지</Link></li>
                       <li><Link to="/Welfare">복지제도</Link></li>
@@ -56,7 +58,7 @@ function Header({headerStyle}) {
                   </li>
                   <li className='nav-item'><Link to="/Service">IT Service</Link></li>
                   <li className='nav-item'>
-                    <a href="#">인재영입</a>
+                    <Link to="/Talent">인재영입</Link>
                     <ul className={ mouseOver == false ? "subnav hidden" : "subnav open" }>
                       <li><Link to="/Talent">인재상</Link></li>
                       <li><Link to="/Process">영입절차</Link></li>
@@ -74,12 +76,12 @@ function Header({headerStyle}) {
         <nav className='nav navbar'>
           <div className='container'>
             <h1 className='navbar-brand'><Link to="/">SINSA BRIDGE</Link></h1>
-            <button onClick={()=>openNav()}>MENU</button>
+            <button onClick={()=>openNav()}><img src={menuicon} /></button>
           </div>
             <ul className={ mobileOpen == false ? "navbar-nav" : "navbar-nav open" } id="m-nav">
-              <li className='nav-close'><button onClick={()=>closeNav()}>[닫기]</button></li>
+              <li className='nav-close'><button onClick={()=>closeNav()}><img src={closeicon}/></button></li>
               <li className='nav-item'>
-                <a href="#">회사소개</a>
+                <Link to="/Company">회사소개</Link>
                 <ul className="subnav open">
                   <li><Link to="/Company">신사브릿지</Link></li>
                   <li><Link to="/Welfare">복지제도</Link></li>
@@ -88,7 +90,7 @@ function Header({headerStyle}) {
               </li>
               <li className='nav-item'><Link to="/Service">IT Service</Link></li>
               <li className='nav-item'>
-                <a href="#">인재영입</a>
+                <Link to="/Talent">인재영입</Link>
                 <ul className="subnav open">
                   <li><Link to="/Talent">인재상</Link></li>
                   <li><Link to="/Process">영입절차</Link></li>

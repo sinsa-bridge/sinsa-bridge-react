@@ -4,7 +4,7 @@ import Footer from "../Footer";
 
 function Contact(){
 
-    const headerStyle=true;
+    const headerStyle=false;
     const topBannerID=7;
 
     return(
