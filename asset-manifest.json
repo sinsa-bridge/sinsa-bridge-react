@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/react-github-pages/static/css/main.f3ca89bf.css",
-    "main.js": "/react-github-pages/static/js/main.acab5e2a.js",
-    "static/js/787.a8a4bfcf.chunk.js": "/react-github-pages/static/js/787.a8a4bfcf.chunk.js",
-    "static/media/ico_comm.png": "/react-github-pages/static/media/ico_comm.a3b58e7d897e00687258.png",
-    "static/media/sinsabridge-ci.png": "/react-github-pages/static/media/sinsabridge-ci.6b7754e3f9764aacffed.png",
-    "static/media/slick.svg": "/react-github-pages/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/react-github-pages/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/react-github-pages/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/react-github-pages/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/react-github-pages/index.html",
-    "main.f3ca89bf.css.map": "/react-github-pages/static/css/main.f3ca89bf.css.map",
-    "main.acab5e2a.js.map": "/react-github-pages/static/js/main.acab5e2a.js.map",
-    "787.a8a4bfcf.chunk.js.map": "/react-github-pages/static/js/787.a8a4bfcf.chunk.js.map"
+    "main.css": "/sinsa-bridge-react/static/css/main.e2051aaf.css",
+    "main.js": "/sinsa-bridge-react/static/js/main.08211359.js",
+    "static/js/787.a8a4bfcf.chunk.js": "/sinsa-bridge-react/static/js/787.a8a4bfcf.chunk.js",
+    "static/media/company-mission-01.png": "/sinsa-bridge-react/static/media/company-mission-01.49b0015244f3b422240b.png",
+    "static/media/company-mission-02.png": "/sinsa-bridge-react/static/media/company-mission-02.19c90c7561b6ea142256.png",
+    "static/media/mainbox.png": "/sinsa-bridge-react/static/media/mainbox.5fc88b026c8b058af2d4.png",
+    "static/media/ico_comm.png": "/sinsa-bridge-react/static/media/ico_comm.a3b58e7d897e00687258.png",
+    "static/media/sinsabridge-ci.png": "/sinsa-bridge-react/static/media/sinsabridge-ci.6b7754e3f9764aacffed.png",
+    "static/media/slick.svg": "/sinsa-bridge-react/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/sinsa-bridge-react/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/sinsa-bridge-react/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/sinsa-bridge-react/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/sinsa-bridge-react/index.html",
+    "main.e2051aaf.css.map": "/sinsa-bridge-react/static/css/main.e2051aaf.css.map",
+    "main.08211359.js.map": "/sinsa-bridge-react/static/js/main.08211359.js.map",
+    "787.a8a4bfcf.chunk.js.map": "/sinsa-bridge-react/static/js/787.a8a4bfcf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3ca89bf.css",
-    "static/js/main.acab5e2a.js"
+    "static/css/main.e2051aaf.css",
+    "static/js/main.08211359.js"
   ]
 }

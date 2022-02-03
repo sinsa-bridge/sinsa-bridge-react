@@ -1,14 +1,14 @@
 [
     {
         "id": 1,
-        "url": "https://www.dktechin.com/service/assets/images/img_slider_03.png",
-        "tit": "새로운 세상, 변화에 맞는 일과 삶의 조화",
-        "txt": "각 개인과 조직에 꼭 맞는 스마트솔루션으로 더 즐겁고 특별한 변화를 만들어보세요."
+        "url": "/img/main-img-01.png",
+        "tit": "타이틀제목 01",
+        "txt": "타이틀제목 01 타이틀제목 01 타이틀제목 01"
     },
     {
         "id": 2,
-        "url": "https://www.dktechin.com/service/assets/images/img_slider_02.png",
-        "tit": "IT기술로 만드는 더욱 스마트한 비즈니스",
-        "txt": "시간과 공간의 제약 없이 언제 어디서나 쉽고 편리하게 당신의 사업을 관리하세요."
+        "url": "/img/main-img-02.png",
+        "tit": "타이틀제목 02",
+        "txt": "ㅎㅎ"
     }
 ]
