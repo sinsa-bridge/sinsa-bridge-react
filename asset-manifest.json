@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sinsa-bridge-react/static/css/main.e2051aaf.css",
-    "main.js": "/sinsa-bridge-react/static/js/main.9f19d8b5.js",
+    "main.css": "/sinsa-bridge-react/static/css/main.bb6d085b.css",
+    "main.js": "/sinsa-bridge-react/static/js/main.1aab51b0.js",
     "static/js/787.a8a4bfcf.chunk.js": "/sinsa-bridge-react/static/js/787.a8a4bfcf.chunk.js",
     "static/media/mainbox.png": "/sinsa-bridge-react/static/media/mainbox.5fc88b026c8b058af2d4.png",
     "static/media/company-mission-01.png": "/sinsa-bridge-react/static/media/company-mission-01.dd78998305028d46187f.png",
@@ -13,12 +13,12 @@
     "static/media/slick.ttf": "/sinsa-bridge-react/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/sinsa-bridge-react/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/sinsa-bridge-react/index.html",
-    "main.e2051aaf.css.map": "/sinsa-bridge-react/static/css/main.e2051aaf.css.map",
-    "main.9f19d8b5.js.map": "/sinsa-bridge-react/static/js/main.9f19d8b5.js.map",
+    "main.bb6d085b.css.map": "/sinsa-bridge-react/static/css/main.bb6d085b.css.map",
+    "main.1aab51b0.js.map": "/sinsa-bridge-react/static/js/main.1aab51b0.js.map",
     "787.a8a4bfcf.chunk.js.map": "/sinsa-bridge-react/static/js/787.a8a4bfcf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2051aaf.css",
-    "static/js/main.9f19d8b5.js"
+    "static/css/main.bb6d085b.css",
+    "static/js/main.1aab51b0.js"
   ]
 }
