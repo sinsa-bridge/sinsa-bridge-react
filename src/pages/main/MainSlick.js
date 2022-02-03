@@ -5,20 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import '../../assets/css/slide.css';
 
-const SimpleSlider = ()=>{
-    const [slideList,setSlideList]=useState([]);
-
-        useEffect(()=>{
-            fetch('/data/slide.json',{
-                method: 'GET'
-            })
-             .then(res => res.json())
-             .then(userData => {
-                 setSlideList(userData);
-             });
-        },[])
-
-    const StyledSlider = styled(Slider)`
+const StyledSlider = styled(Slider)`
         .slick-dots {
             text-align:left;
             left:10%;
@@ -42,8 +29,20 @@ const SimpleSlider = ()=>{
           display:none;
         }
 
-      `;
-  
+      `
+      
+const SimpleSlider = ()=>{
+    const [slideList,setSlideList]=useState([]);
+
+    useEffect(()=>{
+        fetch('/data/slide.json',{
+            method: 'GET'
+        })
+        .then(res => res.json())
+        .then(userData => {
+            setSlideList(userData);
+        });
+    },[])
 
     const settings = {
         dots: true,

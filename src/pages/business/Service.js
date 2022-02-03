@@ -45,7 +45,7 @@ function Service(){
             <div className="content operation">
                 <h3>서비스 개발 및 운영</h3>
                 <strong>풍부한 구축 및 운영 경험과 체계화 된 방법론, 최고의 전문인력을 바탕으로 고객사 IT 자산의 활용 가치를 높일 수 있게 최상의 IT Outsourcing 서비스를 제공합니다.</strong>
-                <ul class="row">
+                <ul className="row">
                     <li className="col-xl-4 box">
                         <dl>
                             <dt><strong>IT Outsourcing 방법론 및 컨설팅</strong></dt>
