@@ -6,7 +6,7 @@ function TopBanner({topBannerID}){
     const [banner, setBanner] = useState([]);
 
     useEffect(()=>{
-        fetch('http://localhost:3000/data/topbanner.json',{
+        fetch('/data/topbanner.json',{
             method: 'GET'
         })
          .then(res => res.json())

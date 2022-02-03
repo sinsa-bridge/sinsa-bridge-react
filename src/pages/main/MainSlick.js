@@ -9,7 +9,7 @@ const SimpleSlider = ()=>{
     const [slideList,setSlideList]=useState([]);
 
         useEffect(()=>{
-            fetch('http://localhost:3000/data/slide.json',{
+            fetch('/data/slide.json',{
                 method: 'GET'
             })
              .then(res => res.json())
