@@ -40,7 +40,7 @@ const SimpleSlider = ()=>{
         })
         .then(res => res.json())
         .then(userData => {
-            setSlideList(userData);
+             setSlideList(userData);
         });
     },[])
 
