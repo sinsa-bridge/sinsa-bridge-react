@@ -4,7 +4,6 @@ function Footer(){
             <div className="container">
 
                 <ul className="quick">
-                    <li><a>개인정보처리방침</a></li>
                     <li><a>회사소개</a></li>
                     <li><a>오시는길</a></li>
                     <li><a>사업문의</a></li>
