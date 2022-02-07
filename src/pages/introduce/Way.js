@@ -1,8 +1,18 @@
+import React,{useEffect} from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import TopBanner from '../TopBanner'
 import Header from '../Header';
 import Footer from "../Footer";
 
+
 function Way(){
+
+    useEffect(() => {
+        AOS.init({
+            duration : 1000
+        });
+    })
 
     const headerStyle=false;
     const topBannerID=3;
@@ -15,16 +25,16 @@ function Way(){
             <div className="way">
             <div className="container">
 
-                <h2>판교오피스</h2>
-                <dl>
+                <h2 data-aos="fade-up">판교오피스</h2>
+                <dl data-aos="fade-up">
                     <dt>주소</dt>
                     <dd>경기 성남시 분당구 대왕판교로 644번길 49(삼평동) DTC타워 10층</dd>
                 </dl>
-                <dl>
+                <dl data-aos="fade-up">
                     <dt>전화번호</dt>
                     <dd>031-606-4600</dd>
                 </dl>
-                <div className='map'></div>
+                <div className='map' data-aos="fade-up"></div>
 
             </div>
             </div>

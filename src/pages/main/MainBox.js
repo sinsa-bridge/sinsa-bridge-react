@@ -1,10 +1,19 @@
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 function MainBox(){
+    
+    useEffect(() => {
+        AOS.init();
+    })
+
     return(
         <div className="MainBox">
             <div className="container">
                 <div className="row">
 
-                    <div className="col-xl-4">
+                    <div className="col-xl-4" data-aos="fade-up">
                     <div className="Box">
                         <a>
                             <img src="https://www.dktechin.com/service/assets/images/img_main_tfac.png" alt="스마트팩토리" />
@@ -15,7 +24,7 @@ function MainBox(){
                         </a>
                     </div>
                     </div>
-                    <div className="col-xl-4">
+                    <div className="col-xl-4" data-aos="fade-up">
                     <div className="Box">
                         <a>
                             <img src="https://www.dktechin.com/service/assets/images/img_main_tfac.png" alt="스마트팩토리" />
@@ -26,7 +35,7 @@ function MainBox(){
                         </a>
                     </div>
                     </div>
-                    <div className="col-xl-4">
+                    <div className="col-xl-4" data-aos="fade-up">
                     <div className="Box">
                         <a>
                             <img src="https://www.dktechin.com/service/assets/images/img_main_tfac.png" alt="스마트팩토리" />

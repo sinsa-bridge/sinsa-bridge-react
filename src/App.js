@@ -3,6 +3,8 @@ import { Route, Routes } from 'react-router-dom';
 import Footer from './pages/Footer';
 import './assets/css/bootstrap.css';
 import './App.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import Main from './pages/main/Main';
 import Company from './pages/introduce/Company';
@@ -13,7 +15,14 @@ import Service from './pages/business/Service';
 import Talent from './pages/career/Talent';
 import Process from './pages/career/Process';
 
+
 function App() {
+
+  useEffect(() => {
+    AOS.init();
+  })
+
+  
   return (
     <>
     <Routes>

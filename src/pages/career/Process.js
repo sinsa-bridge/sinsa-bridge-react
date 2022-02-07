@@ -1,8 +1,17 @@
+import React,{useEffect} from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import TopBanner from "../TopBanner";
 import Header from "../Header";
 import Footer from "../Footer";
 
 function Process(){
+
+    useEffect(() => {
+        AOS.init({
+            duration : 1000
+        });
+    })
 
     const headerStyle=false;
     const topBannerID=6;
@@ -16,8 +25,8 @@ function Process(){
         <div className="process">
         <div className="container">
 
-            <h2>영입절차</h2>
-            <ul className="row imgmap">
+            <h2 data-aos="fade-up">영입절차</h2>
+            <ul className="row imgmap" data-aos="fade-up">
                 <li className="col-md-3">
                     <div className="box">
                         <span>01</span>
@@ -44,7 +53,7 @@ function Process(){
                 </li>
             </ul>
             <ul className="row txt">
-                <li className="col-md-6">
+                <li className="col-md-6" data-aos="fade-up">
                     <dl>
                         <dt>1. 지원 및 서류전형</dt>
                         <dd>
@@ -53,7 +62,7 @@ function Process(){
                         </dd>
                     </dl>
                 </li>
-                <li className="col-md-6">
+                <li className="col-md-6" data-aos="fade-up">
                     <dl>
                         <dt>2. Pre-Test</dt>
                         <dd>
@@ -62,7 +71,7 @@ function Process(){
                         </dd>
                     </dl>
                 </li>
-                <li className="col-md-6">
+                <li className="col-md-6" data-aos="fade-up">
                     <dl>
                         <dt>3. 1차 인터뷰</dt>
                         <dd>
@@ -71,7 +80,7 @@ function Process(){
                         </dd>
                     </dl>
                 </li>
-                <li className="col-md-6">
+                <li className="col-md-6" data-aos="fade-up">
                     <dl>
                         <dt>4. 최종 합격</dt>
                         <dd>
