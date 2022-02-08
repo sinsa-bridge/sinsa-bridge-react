@@ -1,6 +1,3 @@
-import React,{useEffect} from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import TopBanner from '../TopBanner'
 import Header from '../Header';
 import Footer from "../Footer";
@@ -9,12 +6,6 @@ import mission01 from '../../assets/img/company-mission-01.png';
 import mission02 from '../../assets/img/company-mission-02.png';
 
 function Company(){
-
-    useEffect(() => {
-        AOS.init({
-            duration : 1000
-        });
-    })
 
     const headerStyle=false;
     const topBannerID=1;
@@ -25,7 +16,7 @@ function Company(){
         <Header headerStyle={headerStyle}/>
         <TopBanner topBannerID={topBannerID}/>
 
-        <div className="company">
+        <div className="company" data-aos="fade-up">
 
             <div className="mission">
             <div className="container">
@@ -34,12 +25,12 @@ function Company(){
                     IT기술 각 분야의 상호 협력을 통해 비즈니스의 성공 및 혁신을 함께하고,<br/>
                     더 큰 가치를 만들어가는 기업
                 </p>
-                <div className="mission-img row" data-aos="fade-up"> 
-                    <figure className="col-md-6">
+                <div className="mission-img row"> 
+                    <figure className="col-md-6" data-aos="fade-up">
                         <img src={mission01} />
                         <figcaption></figcaption>
                     </figure>
-                    <figure className="col-md-6">
+                    <figure className="col-md-6" data-aos="fade-up">
                         <img src={mission02} />
                         <figcaption></figcaption>
                     </figure>
@@ -47,7 +38,7 @@ function Company(){
             </div>
             </div>
 
-            <div className="vision">
+            <div className="vision" data-aos="fade-up">
             <div className="container">
                 <h2 data-aos="fade-up">새로운 세상, 새로운 연결</h2>
                 <p data-aos="fade-up">
@@ -69,7 +60,7 @@ function Company(){
                                 <p>모든 구성원이 각 분야의 전문가로 성장하도록 잠재력을 가진 인재를 발굴하고, 구성원들이 최고의 역량을 발휘할 수 있는 환경을 제공합니다.</p>
                             </div>
                             <div className="img">
-                                <img src="https://www.dktechin.com/service/assets/images/img_value_01.png"/>
+                                <img src=""/>
                             </div>
                         </li>
                         <li className='col-md-6' data-aos="fade-up"> 
@@ -78,7 +69,7 @@ function Company(){
                                 <p>모든 구성원이 각 분야의 전문가로 성장하도록 잠재력을 가진 인재를 발굴하고, 구성원들이 최고의 역량을 발휘할 수 있는 환경을 제공합니다.</p>
                             </div>
                             <div className="img">
-                                <img src="https://www.dktechin.com/service/assets/images/img_value_01.png"/>
+                                <img src=""/>
                             </div>
                         </li>
                 </ul>

@@ -1,17 +1,8 @@
-import React,{useEffect} from "react";
 import TopBanner from "../TopBanner";
 import Header from "../Header";
 import Footer from "../Footer";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 const Welfare = () => {
-
-    useEffect(() => {
-        AOS.init({
-            duration : 1000
-        });
-    })
 
     const headerStyle=false;
     const topBannerID=2;

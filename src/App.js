@@ -6,6 +6,7 @@ import './App.css';
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+
 import Main from './pages/main/Main';
 import Company from './pages/introduce/Company';
 import Welfare from './pages/introduce/Welfare';
@@ -15,16 +16,11 @@ import Service from './pages/business/Service';
 import Talent from './pages/career/Talent';
 import Process from './pages/career/Process';
 
-
 function App() {
-
-  useEffect(() => {
-    AOS.init();
-  })
-
   
   return (
     <>
+    <div className='wrap'>
     <Routes>
       <Route path="/" element={<Main />} exact={true}/>
       <Route path="/Company" element={<Company />} />
@@ -35,6 +31,7 @@ function App() {
       <Route path="/Process" element={<Process />} />
       <Route path="/Contact" element={<Contact />} />
     </Routes>
+    </div>
     </>
   );
 }

@@ -7,10 +7,12 @@ import './assets/css/style.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
+import ScrollTop from './pages/ScrollTop';
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <ScrollTop />
       <App />
     </BrowserRouter>
   </React.StrictMode>,

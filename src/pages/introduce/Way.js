@@ -1,18 +1,9 @@
-import React,{useEffect} from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import TopBanner from '../TopBanner'
 import Header from '../Header';
 import Footer from "../Footer";
 
 
 function Way(){
-
-    useEffect(() => {
-        AOS.init({
-            duration : 1000
-        });
-    })
 
     const headerStyle=false;
     const topBannerID=3;
