@@ -2,6 +2,12 @@ import TopBanner from "../TopBanner";
 import Header from "../Header";
 import Footer from "../Footer";
 import ciImg from '../../assets/img/sinsabridge-ci.png';
+import client01 from '../../assets/img/client/01.png';
+import client02 from '../../assets/img/client/02.png';
+import client03 from '../../assets/img/client/03.png';
+import client04 from '../../assets/img/client/04.png';
+import client05 from '../../assets/img/client/05.png';
+import client06 from '../../assets/img/client/06.png';
 
 function Service(){
 
@@ -70,14 +76,12 @@ function Service(){
                 <div className="content client">
                     <h3 data-aos="fade-up">주요 고객사</h3>
                     <ul className="row" data-aos="fade-up">
-                        <li className="col-6 col-md-3"><img src={ciImg}/></li>
-                        <li className="col-6 col-md-3"><img src={ciImg}/></li>
-                        <li className="col-6 col-md-3"><img src={ciImg}/></li>
-                        <li className="col-6 col-md-3"><img src={ciImg}/></li>
-                        <li className="col-6 col-md-3"><img src={ciImg}/></li>
-                        <li className="col-6 col-md-3"><img src={ciImg}/></li>
-                        <li className="col-6 col-md-3"><img src={ciImg}/></li>
-                        <li className="col-6 col-md-3"><img src={ciImg}/></li>
+                        <li className="col-6 col-md-3"><img src={client01}/></li>
+                        <li className="col-6 col-md-3"><img src={client02}/></li>
+                        <li className="col-6 col-md-3"><img src={client03}/></li>
+                        <li className="col-6 col-md-3"><img src={client04}/></li>
+                        <li className="col-6 col-md-3"><img src={client05}/></li>
+                        <li className="col-6 col-md-3"><img src={client06}/></li>
                     </ul>
                 </div>
 

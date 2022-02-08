@@ -1,9 +1,12 @@
 import { useState, useEffect } from "react";
+import Spinner from "../Spinner";
 
 function TopBanner({topBannerID}){
 
     const [bannerList, setBannerList] = useState([]);
     const [banner, setBanner] = useState([]);
+
+    const [loading,setLoading] = useState(false);
 
     useEffect(()=>{
         fetch('/sinsa-bridge-react/data/topbanner.json',{
@@ -12,6 +15,7 @@ function TopBanner({topBannerID}){
          .then(res => res.json())
          .then(userData => {
              setBannerList(userData);
+             setLoading(true);
          });
     },[])
 
@@ -21,7 +25,8 @@ function TopBanner({topBannerID}){
 
     return(
         <>
-        {bannerList.map( n => {
+        { loading == false ? <Spinner /> 
+        :bannerList.map( n => {
             if(n.id==topBannerID){
             return(
                 <div className="TopBanner" style={{ background: 'url(' + n.imgUrl + ') no-repeat center center' }} key={n.id}>

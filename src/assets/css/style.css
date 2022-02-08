@@ -553,6 +553,11 @@ body{
 } 
 .service .client ul li{
   margin-bottom:2rem;
+  text-align:left;
+}
+.service .client ul li img{
+  width:auto;
+  max-width:200px;
 }
 
 
