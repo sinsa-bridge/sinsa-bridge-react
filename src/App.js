@@ -19,13 +19,13 @@ function App() {
     <div className='wrap'>
     <Routes>
       <Route path="/" element={<Main />} exact={true}/>
-      <Route path="/Company" element={<Company />} />
-      <Route path="/Welfare" element={<Welfare />} />
-      <Route path="/Way" element={<Way />} />
-      <Route path="/Service" element={<Service />} />
-      <Route path="/Talent" element={<Talent />} />
-      <Route path="/Process" element={<Process />} />
-      <Route path="/Contact" element={<Contact />} />
+      <Route path="/company" element={<Company />} />
+      <Route path="/welfare" element={<Welfare />} />
+      <Route path="/way" element={<Way />} />
+      <Route path="/service" element={<Service />} />
+      <Route path="/talent" element={<Talent />} />
+      <Route path="/process" element={<Process />} />
+      <Route path="/contact" element={<Contact />} />
     </Routes>
     </div>
     </>

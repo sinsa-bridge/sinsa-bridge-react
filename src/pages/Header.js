@@ -50,22 +50,22 @@ function Header({headerStyle}) {
               <h1 className='navbar-brand'><Link to="/">SINSA BRIDGE</Link></h1>
                 <ul className='navbar-nav' >
                   <li className='nav-item'>
-                    <Link to="/Company">회사소개</Link>
+                    <Link to="/company">회사소개</Link>
                     <ul className={ mouseOver == false ? "subnav hidden" : "subnav open" }>
-                      <li><Link to="/Company">신사브릿지</Link></li>
-                      <li><Link to="/Welfare">복지제도</Link></li>
-                      <li><Link to="/Way">오시는길</Link></li>
+                      <li><Link to="/company">신사브릿지</Link></li>
+                      <li><Link to="/welfare">복지제도</Link></li>
+                      <li><Link to="/way">오시는길</Link></li>
                     </ul>
                   </li>
-                  <li className='nav-item'><Link to="/Service">IT Service</Link></li>
+                  <li className='nav-item'><Link to="/service">IT Service</Link></li>
                   <li className='nav-item'>
-                    <Link to="/Talent">인재영입</Link>
+                    <Link to="/talent">인재영입</Link>
                     <ul className={ mouseOver == false ? "subnav hidden" : "subnav open" }>
-                      <li><Link to="/Talent">인재상</Link></li>
-                      <li><Link to="/Process">영입절차</Link></li>
+                      <li><Link to="/talent">인재상</Link></li>
+                      <li><Link to="/process">영입절차</Link></li>
                     </ul>
                   </li>
-                  <li className='nav-item'><Link to="/Contact">고객문의</Link></li>
+                  <li className='nav-item'><Link to="/contact">고객문의</Link></li>
                 </ul>
             </nav>      
   
@@ -84,20 +84,20 @@ function Header({headerStyle}) {
               <li className='nav-item'>
                 <Link to="/Company">회사소개</Link>
                 <ul className="subnav open">
-                  <li><Link to="/Company">신사브릿지</Link></li>
-                  <li><Link to="/Welfare">복지제도</Link></li>
-                  <li><Link to="/Way">오시는길</Link></li>
+                  <li><Link to="/company">신사브릿지</Link></li>
+                  <li><Link to="/welfare">복지제도</Link></li>
+                  <li><Link to="/way">오시는길</Link></li>
                 </ul>
               </li>
               <li className='nav-item'><Link to="/Service">IT Service</Link></li>
               <li className='nav-item'>
-                <Link to="/Talent">인재영입</Link>
+                <Link to="/talent">인재영입</Link>
                 <ul className="subnav open">
-                  <li><Link to="/Talent">인재상</Link></li>
-                  <li><Link to="/Process">영입절차</Link></li>
+                  <li><Link to="/talent">인재상</Link></li>
+                  <li><Link to="/process">영입절차</Link></li>
                 </ul>
               </li>
-              <li className='nav-item'><Link to="/Contact">고객문의</Link></li>
+              <li className='nav-item'><Link to="/contact">고객문의</Link></li>
             </ul>
         </nav>
         </div> 
