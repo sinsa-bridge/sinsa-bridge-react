@@ -2,7 +2,7 @@ import mainboximg from '../../assets/img/mainbox.png';
 
 function MainCareers(){
     return(
-        <div className="mainCareers">
+        <div className="mainCareers" data-aos="fade-up" data-aos-offset="200">
             <div className="container">
                 <div className="row">
 

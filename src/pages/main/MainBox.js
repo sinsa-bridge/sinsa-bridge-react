@@ -1,7 +1,7 @@
 function MainBox(){
 
     return(
-        <div className="MainBox">
+        <div className="MainBox" data-aos="fade-up" data-aos-offset="400">
             <div className="container">
                 <div className="row">
 

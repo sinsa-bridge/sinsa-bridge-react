@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import '../../assets/css/slide.css';
+import Spinner from "../../Spinner";
 
 const StyledSlider = styled(Slider)`
         .slick-dots {
@@ -32,7 +33,9 @@ const StyledSlider = styled(Slider)`
       `
       
 const SimpleSlider = ()=>{
+
     const [slideList,setSlideList]=useState([]);
+    const [loading,setLoading] = useState(false);
 
     useEffect(()=>{
         fetch('/sinsa-bridge-react/data/slide.json',{
@@ -41,6 +44,7 @@ const SimpleSlider = ()=>{
         .then(res => res.json())
         .then(userData => {
              setSlideList(userData);
+             setLoading(true);
         });
     },[])
 
@@ -56,6 +60,8 @@ const SimpleSlider = ()=>{
         slidesToScroll: 1
     };
     return (
+        <>
+        { loading == false ? <Spinner />:
     	<StyledSlider {...settings}>
             {slideList.map( n=> {
                 return (
@@ -74,6 +80,8 @@ const SimpleSlider = ()=>{
                 );
             })}
         </StyledSlider>  
+        }
+        </>
     );
 }
 
