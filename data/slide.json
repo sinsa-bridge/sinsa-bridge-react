@@ -1,13 +1,13 @@
 [
     {
         "id": 1,
-        "url": "/sinsa-bridge-react/img/main-img-01.png",
+        "url": "/sinsa-bridge-react/img/main-img-01.jpg",
         "tit": "타이틀제목 01",
         "txt": "타이틀제목 01 타이틀제목 01 타이틀제목 01"
     },
     {
         "id": 2,
-        "url": "/sinsa-bridge-react/img/main-img-02.png",
+        "url": "/sinsa-bridge-react/img/main-img-02.jpg",
         "tit": "타이틀제목 02",
         "txt": "ㅎㅎ"
     }
