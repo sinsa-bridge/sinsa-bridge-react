@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import ciImg from '../assets/img/sinsabridge-ci.png';
 import closeicon from '../assets/img/close.png';
-import menuicon from '../assets/img/menu.png';
+import menuicon from '../assets/img/menu2.png';
+import menuiconB from '../assets/img/menu2-black.png';
 
 function Header({headerStyle}) {
 
@@ -76,7 +77,7 @@ function Header({headerStyle}) {
         <nav className='nav navbar'>
           <div className='container'>
             <h1 className='navbar-brand'><Link to="/">SINSA BRIDGE</Link></h1>
-            <button onClick={()=>openNav()}><img src={menuicon} /></button>
+            <button onClick={()=>openNav()}><img src={ headerStyle == false && scrollPosition < 100 ? menuicon : menuiconB } /></button>
           </div>
             <ul className={ mobileOpen == false ? "navbar-nav" : "navbar-nav open" } id="m-nav">
               <li className='nav-close'><button onClick={()=>closeNav()}><img src={closeicon}/></button></li>
