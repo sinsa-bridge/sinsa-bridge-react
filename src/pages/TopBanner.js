@@ -15,10 +15,11 @@ function TopBanner({topBannerID}){
          .then(res => res.json())
          .then(userData => {
              setBannerList(userData);
-             setLoading(true);
          });
-    },[])
 
+         window.addEventListener('load',setLoading(true))
+
+    },[])
 
     // const bannerListItem = setBannerList(bannerList.filter( item => bannerList.id !== item ));
     // console.log(bannerListItem);

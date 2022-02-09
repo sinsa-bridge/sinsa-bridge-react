@@ -44,8 +44,10 @@ const SimpleSlider = ()=>{
         .then(res => res.json())
         .then(userData => {
              setSlideList(userData);
-             setLoading(true);
         });
+
+        window.addEventListener('load',setLoading(true))
+        
     },[])
 
     const settings = {
