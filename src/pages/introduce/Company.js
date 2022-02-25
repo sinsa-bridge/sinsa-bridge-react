@@ -25,7 +25,7 @@ function Company(){
                     IT기술 각 분야의 상호 협력을 통해 비즈니스의 성공 및 혁신을 함께하고,<br/>
                     더 큰 가치를 만들어가는 기업
                 </p>
-                <div className="mission-img row"> 
+                <div className="mission-img row">
                     <figure className="col-md-6" data-aos="fade-up">
                         <img src={mission01} />
                         <figcaption></figcaption>
@@ -50,23 +50,29 @@ function Company(){
 
             <div className="value">
             <div className="container">
-                
+
                 <div className="content">
                 <h3 data-aos="fade-up">Value</h3>
                 <ul className="row" data-aos="fade-up">
-                        <li className='col-md-6' data-aos="fade-up"> 
+                        <li className='col-md-6' data-aos="fade-up">
                             <div className="con">
-                                <strong>인재경영 - 사람중심의 연결</strong>
-                                <p>모든 구성원이 각 분야의 전문가로 성장하도록 잠재력을 가진 인재를 발굴하고, 구성원들이 최고의 역량을 발휘할 수 있는 환경을 제공합니다.</p>
+                                <strong>인재경영</strong>
+                                <p>
+                                    신사브릿지에서 가장 중요한 가치는 인재육성입니다. <br/>
+                                    좋은 사람, 좋은 조직이 모이면 좋은 회사가 될 것이라 확신합니다.
+                                </p>
                             </div>
                             <div className="img">
                                 <img src=""/>
                             </div>
                         </li>
-                        <li className='col-md-6' data-aos="fade-up"> 
+                        <li className='col-md-6' data-aos="fade-up">
                             <div className="con">
-                                <strong>인재경영 - 사람중심의 연결</strong>
-                                <p>모든 구성원이 각 분야의 전문가로 성장하도록 잠재력을 가진 인재를 발굴하고, 구성원들이 최고의 역량을 발휘할 수 있는 환경을 제공합니다.</p>
+                                <strong>동반성장</strong>
+                                <p>
+                                    직원의 성장이 곧 회사의 성장입니다. <br/>
+                                    모든 의사결정에서 회사의 이익과 직원들의 성장을 동시에 추구합니다.
+                                </p>
                             </div>
                             <div className="img">
                                 <img src=""/>
@@ -92,7 +98,7 @@ function Company(){
         </div>
 
         <Footer/>
-        
+
         </>
     );
 }
