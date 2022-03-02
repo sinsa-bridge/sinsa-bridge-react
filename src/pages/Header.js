@@ -77,7 +77,7 @@ function Header({headerStyle}) {
         <nav className='nav navbar'>
           <div className='container'>
             <h1 className='navbar-brand'><Link to="/">SINSA BRIDGE</Link></h1>
-            <button onClick={()=>openNav()}><img src={ headerStyle == false && scrollPosition < 100 ? menuicon : menuiconB } /></button>
+            <button name='menu' onClick={()=>openNav()}><img src={ headerStyle == false && scrollPosition < 100 ? menuicon : menuiconB } /></button>
           </div>
             <ul className={ mobileOpen == false ? "navbar-nav" : "navbar-nav open" } id="m-nav">
               <li className='nav-close'><button onClick={()=>closeNav()}><img src={closeicon}/></button></li>

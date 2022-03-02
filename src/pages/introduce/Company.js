@@ -4,6 +4,8 @@ import Footer from "../Footer";
 import ciImg from '../../assets/img/sinsabridge-ci.png';
 import mission01 from '../../assets/img/company-mission-01.png';
 import mission02 from '../../assets/img/company-mission-02.png';
+import value01 from '../../assets/img/company-value-01.jpg';
+import value02 from '../../assets/img/company-value-02.jpg';
 
 function Company(){
 
@@ -63,7 +65,7 @@ function Company(){
                                 </p>
                             </div>
                             <div className="img">
-                                <img src=""/>
+                                <img src={value01}/>
                             </div>
                         </li>
                         <li className='col-md-6' data-aos="fade-up">
@@ -75,7 +77,7 @@ function Company(){
                                 </p>
                             </div>
                             <div className="img">
-                                <img src=""/>
+                                <img src={value02}/>
                             </div>
                         </li>
                 </ul>

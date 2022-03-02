@@ -402,7 +402,8 @@ body{
 .company .value .content .row .con p{
   margin-top:1rem;
 }
-.company .value .content .row .img{
+.company .value .content .row .img img{
+  border-radius: 0.5rem;
 }
 
 .company .CI{ margin-bottom:10rem; }

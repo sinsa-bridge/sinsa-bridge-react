@@ -22,7 +22,7 @@ function TopBanner({topBannerID}){
     },[])
 
     // const bannerListItem = setBannerList(bannerList.filter( item => bannerList.id !== item ));
-    // console.log(bannerListItem);
+     console.log(bannerList);
 
     return(
         <>
