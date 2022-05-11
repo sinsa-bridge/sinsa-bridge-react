@@ -15,9 +15,9 @@ function TopBanner({topBannerID}){
          .then(res => res.json())
          .then(userData => {
              setBannerList(userData);
-         });
+         })
 
-         document.addEventListener('load',setLoading(true))
+         document.addEventListener('DOMContentLoaded',setLoading(true));
 
     },[])
 
