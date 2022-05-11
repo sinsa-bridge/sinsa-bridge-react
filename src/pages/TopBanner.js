@@ -17,7 +17,7 @@ function TopBanner({topBannerID}){
              setBannerList(userData);
          });
 
-         window.addEventListener('load',setLoading(true))
+         document.addEventListener('load',setLoading(true))
 
     },[])
 
