@@ -12,7 +12,7 @@ import client06 from '../../assets/img/client/06.png';
 function Service(){
 
     const headerStyle=false;
-    const topBannerID=4;
+    const topBannerID=1;
 
     return(
         <>
