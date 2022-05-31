@@ -26,27 +26,23 @@ function Talent(){
             <ul className="row">
                 <li className="col-6 col-md-3" data-aos="fade-up">
                     <span>01</span>
-                    <p>인재상 첫번째</p>
+                    <p>스스로 동기부여하여 높은 목표를 도전하고 기존의 틀을 깨는 과감한 실행을 하는 인재</p>
                 </li>
                 <li className="col-6 col-md-3" data-aos="fade-up">
                     <span>02</span>
-                    <p>인재상 두번째</p>
+                    <p>그 과정에서 필요한 역량을 개발하기 위해 노력하여 팀웍을 발휘하는 인재</p>
                 </li>
                 <li className="col-6 col-md-3" data-aos="fade-up">
                     <span>03</span>
-                    <p>인재상 세번째</p>
+                    <p>부단한 자기계발로 항상 새로운 인재</p>
                 </li>
                 <li className="col-6 col-md-3" data-aos="fade-up">
                     <span>04</span>
-                    <p>인재상 네번째</p>
+                    <p>부지런하고 정직하며 예의바른 인재</p>
                 </li>
                 <li className="col-6 col-md-3" data-aos="fade-up">
                     <span>05</span>
-                    <p>인재상 다섯번째</p>
-                </li>
-                <li className="col-6 col-md-3" data-aos="fade-up">
-                    <span>06</span>
-                    <p>인재상 여섯번째</p>
+                    <p>미래를 예측하고 변화를 주도하는 인재</p>
                 </li>
             </ul>
 

@@ -73,6 +73,42 @@ function Service(){
                     </ul>
                 </div>
 
+                <div className="content info">
+                    <h3 data-aos="fade-up">COMPONY PROFILE</h3>
+                    <ul className="row list-style" data-aos="fade-up">
+                        <li>
+                            <dl>
+                                <dt>회사설립</dt>
+                                <dd>2019.01.08</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>대표이사</dt>
+                                <dd>조은정</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>주요기술</dt>
+                                <dd>Web application</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>대표메일</dt>
+                                <dd>support@sinsabridge.com</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>사업자등록번호</dt>
+                                <dd>672-86-01278</dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+
                 <div className="content client">
                     <h3 data-aos="fade-up">주요 고객사</h3>
                     <ul className="row" data-aos="fade-up">

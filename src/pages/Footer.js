@@ -1,19 +1,20 @@
+import { Link } from 'react-router-dom';
+
 function Footer(){
     return(
         <div className="footer">
             <div className="container">
 
                 <ul className="quick">
-                    <li><a>회사소개</a></li>
-                    <li><a>오시는길</a></li>
-                    <li><a>사업문의</a></li>
+                    <li><Link to="/company">회사소개</Link></li>
+                    <li><Link to="/contact">고객문의</Link></li>
                 </ul>
 
                 <div className="info">
                     <span>(주)신사브릿지</span>
                     <span>경기도 김포시 김포한강9로75번길 158 KR 이편한세상시티 한강신도시 A307</span>
-                    <span>대표이사: 홍길동</span>
-                    <span>대표전화: 00-000-0000</span>
+                    <span>대표이사: 조은정</span>
+                    <span>대표전화: 070-7847-6600</span>
                     <p className="copyright">© sinsabridge Corp. All rights reserved.</p>
                 </div>
 

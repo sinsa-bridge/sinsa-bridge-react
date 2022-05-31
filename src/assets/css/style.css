@@ -541,6 +541,27 @@ body{
   padding-bottom:1rem;
   font-size:2em;
 }
+.service .list-style dl{
+  display:flex;
+  margin:0 !important;
+  padding:1rem !important;
+  background:#fff !important;
+  border-radius: 0 !important;
+  border-bottom:1px solid #eee;
+  height:auto !important;
+}
+.service .list-style li:first-child dl{
+  border-top:2px solid #333;
+}
+.service .list-style dt{
+  margin:0 !important;
+  width:30%;
+}
+.service .list-style dd{
+  margin:0;
+  width: 70%;
+  color:#777;
+}
 .service .content ul{ 
   display:flex; 
 }
@@ -561,6 +582,7 @@ body{
   padding:0;
   font-size:1.5em;
 } 
+
 .service .client ul li{
   margin-bottom:2rem;
   text-align:left;
@@ -577,7 +599,7 @@ body{
 .talent div{ margin-bottom:4rem; line-height:1.7rem; }
 .talent ul li{ margin-bottom:2rem; }
 .talent ul li span{ color:#ff9654;font-weight:bold; }
-.talent ul li p{ font-size:1.5rem; }
+.talent ul li p{ font-size:1.2rem; }
 
 
 /* 영입절차 */

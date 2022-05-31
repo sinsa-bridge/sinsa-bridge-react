@@ -54,7 +54,7 @@ function Header({headerStyle}) {
                     <ul className={ mouseOver == false ? "subnav hidden" : "subnav open" }>
                       {/* <li><Link to="/company">신사브릿지</Link></li> */}
                       <li><Link to="/service">신사브릿지</Link></li>
-                      <li><Link to="/way">오시는길</Link></li>
+                      {/* <li><Link to="/way">오시는길</Link></li> */}
                     </ul>
                   </li>
                   {/* <li className='nav-item'><Link to="/service">IT Service</Link></li> */}
@@ -86,7 +86,7 @@ function Header({headerStyle}) {
                 <Link to="/Company">회사소개</Link>
                 <ul className="subnav open">
                   <li><Link to="/Service">신사브릿지</Link></li>
-                  <li><Link to="/way">오시는길</Link></li>
+                  {/* <li><Link to="/way">오시는길</Link></li> */}
                 </ul>
               </li>
               <li className='nav-item'>

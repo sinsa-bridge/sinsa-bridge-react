@@ -16,14 +16,14 @@ function Way(){
             <div className="way">
             <div className="container">
 
-                <h2 data-aos="fade-up">판교오피스</h2>
+                <h2 data-aos="fade-up">김포오피스</h2>
                 <dl data-aos="fade-up">
                     <dt>주소</dt>
-                    <dd>경기 성남시 분당구 대왕판교로 644번길 49(삼평동) DTC타워 10층</dd>
+                    <dd>경기 김포시 김포한강9로75번길 158 (구래동) A-307, B-111</dd>
                 </dl>
                 <dl data-aos="fade-up">
                     <dt>전화번호</dt>
-                    <dd>031-606-4600</dd>
+                    <dd>070-7847-6600</dd>
                 </dl>
                 <div className='map' data-aos="fade-up"></div>
 
