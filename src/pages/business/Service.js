@@ -121,6 +121,17 @@ function Service(){
                     </ul>
                 </div>
 
+                <div className="CI">
+                <div className="container">
+                    <div className="content">
+                        <h3 data-aos="fade-up">신사브릿지 CI</h3>
+                        <div className="box" data-aos="fade-up">
+                            <img src={ciImg} />
+                        </div>
+                    </div>
+                </div>
+                </div>
+
             </div>
         </div>
 

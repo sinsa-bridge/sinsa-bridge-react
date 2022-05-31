@@ -14,7 +14,7 @@ function Main(){
             <Header headerStyle={headerStyle}/>
             <SimpleSlider />
             <MainCareers />
-            <MainBox />
+            {/* <MainBox /> */}
             <Footer/>
         </div>
         </>
