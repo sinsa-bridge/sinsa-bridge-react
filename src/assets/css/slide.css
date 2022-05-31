@@ -9,7 +9,7 @@
     transform: translate(0%,-50%); 
     color:#fff; 
 }
-.slickBannerContent .tit{ font-size:5em; font-weight:bold; text-shadow: 0 4px 6px rgb(0 0 0 / 18%); }
+.slickBannerContent .tit{ font-size:4em; font-weight:bold; text-shadow: 0 4px 6px rgb(0 0 0 / 18%); }
 .slickBannerContent .txt{ font-size:1.5em; margin-top:20px; }
 
 @media (min-width: 1400px) {

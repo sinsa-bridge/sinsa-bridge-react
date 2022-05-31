@@ -83,7 +83,7 @@ function Header({headerStyle}) {
             <ul className={ mobileOpen == false ? "navbar-nav" : "navbar-nav open" } id="m-nav">
               <li className='nav-close'><button onClick={()=>closeNav()}><img src={closeicon}/></button></li>
               <li className='nav-item'>
-                <Link to="/Company">회사소개</Link>
+                <Link to="/Service">회사소개</Link>
                 <ul className="subnav open">
                   <li><Link to="/Service">신사브릿지</Link></li>
                   {/* <li><Link to="/way">오시는길</Link></li> */}
