@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/sinsa-bridge-react/static/css/main.7b38807b.css",
-    "main.js": "/sinsa-bridge-react/static/js/main.79ce5dc3.js",
+    "main.css": "/sinsa-bridge-react/static/css/main.d4a74b58.css",
+    "main.js": "/sinsa-bridge-react/static/js/main.ee3e9a65.js",
     "static/js/787.a8a4bfcf.chunk.js": "/sinsa-bridge-react/static/js/787.a8a4bfcf.chunk.js",
+    "static/media/company-value-01.jpg": "/sinsa-bridge-react/static/media/company-value-01.d1f72b5301e01a253286.jpg",
     "static/media/mainbox.png": "/sinsa-bridge-react/static/media/mainbox.5fc88b026c8b058af2d4.png",
+    "static/media/company-value-02.jpg": "/sinsa-bridge-react/static/media/company-value-02.7d9705c5682dbf949626.jpg",
     "static/media/company-mission-01.png": "/sinsa-bridge-react/static/media/company-mission-01.dd78998305028d46187f.png",
     "static/media/company-mission-02.png": "/sinsa-bridge-react/static/media/company-mission-02.25a36b79b20d591b313f.png",
     "static/media/sinsabridge-ci.png": "/sinsa-bridge-react/static/media/sinsabridge-ci.6b7754e3f9764aacffed.png",
@@ -12,12 +14,12 @@
     "static/media/slick.ttf": "/sinsa-bridge-react/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/sinsa-bridge-react/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/sinsa-bridge-react/index.html",
-    "main.7b38807b.css.map": "/sinsa-bridge-react/static/css/main.7b38807b.css.map",
-    "main.79ce5dc3.js.map": "/sinsa-bridge-react/static/js/main.79ce5dc3.js.map",
+    "main.d4a74b58.css.map": "/sinsa-bridge-react/static/css/main.d4a74b58.css.map",
+    "main.ee3e9a65.js.map": "/sinsa-bridge-react/static/js/main.ee3e9a65.js.map",
     "787.a8a4bfcf.chunk.js.map": "/sinsa-bridge-react/static/js/787.a8a4bfcf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b38807b.css",
-    "static/js/main.79ce5dc3.js"
+    "static/css/main.d4a74b58.css",
+    "static/js/main.ee3e9a65.js"
   ]
 }
