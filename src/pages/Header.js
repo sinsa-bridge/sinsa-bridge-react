@@ -50,10 +50,10 @@ function Header({headerStyle}) {
               <h1 className='navbar-brand'><Link to="/">SINSA BRIDGE</Link></h1>
                 <ul className='navbar-nav' >
                   <li className='nav-item'>
-                    <Link to="/company">회사소개</Link>
+                    <Link to="/service">회사소개</Link>
                     <ul className={ mouseOver == false ? "subnav hidden" : "subnav open" }>
                       {/* <li><Link to="/company">신사브릿지</Link></li> */}
-                      <li><Link to="/service">신사브릿지</Link></li>
+                      {/* <li><Link to="/service">신사브릿지</Link></li> */}
                       {/* <li><Link to="/way">오시는길</Link></li> */}
                     </ul>
                   </li>
@@ -85,7 +85,7 @@ function Header({headerStyle}) {
               <li className='nav-item'>
                 <Link to="/Service">회사소개</Link>
                 <ul className="subnav open">
-                  <li><Link to="/Service">신사브릿지</Link></li>
+                  {/* <li><Link to="/Service">신사브릿지</Link></li> */}
                   {/* <li><Link to="/way">오시는길</Link></li> */}
                 </ul>
               </li>

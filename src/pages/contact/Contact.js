@@ -19,12 +19,12 @@ function Contact(){
                 <ul className='row'>
                     <li className='col-md-6' data-aos="fade-up">
                         <h3>이메일 문의</h3>
-                        <button>이메일 문의 <span className='icon email-icon'></span></button>
+                        <a href={"mailto:support@sinsabridge.com"}>이메일 문의 <span className='icon email-icon'></span></a>
                     </li>
-                    <li className='col-md-6' data-aos="fade-up">
+                    {/* <li className='col-md-6' data-aos="fade-up">
                         <h3>카카오톡 문의</h3>
-                        <button>카카오톡 문의 <span className='icon kakao-icon'></span></button>
-                    </li>
+                        <a>카카오톡 문의 <span className='icon kakao-icon'></span></a>
+                    </li> */}
                 </ul>
 
             </div>

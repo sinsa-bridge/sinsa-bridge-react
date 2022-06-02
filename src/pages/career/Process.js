@@ -79,6 +79,9 @@ function Process(){
                         </dd>
                     </dl>
                 </li>
+                <li className="col-md-12 process-btn" data-aos="fade-up">
+                    <a href="https://www.jobkorea.co.kr/Recruit/Co_Read/Recruit/C/sinsabridge" target="_blank" rel="noopener noreferrer" className="btn-type-black">채용공고 확인하기</a>
+                </li>
             </ul>
 
         </div>
