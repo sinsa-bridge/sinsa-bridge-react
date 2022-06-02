@@ -1,13 +1,13 @@
 [
     {
         "id": 1,
-        "url": "/sinsa-bridge-react/img/main-img-01.jpg",
+        "url": "/img/main-img-01.jpg",
         "tit": "Imagination at work!",
         "txt": "고객의 상상을 우리의 기술로 현실화 합니다."
     },
     {
         "id": 2,
-        "url": "/sinsa-bridge-react/img/main-img-02.jpg",
+        "url": "/img/main-img-02.jpg",
         "tit": "For the marketing in charge of change",
         "txt": "변화를 주도하는 마케팅을 위한 혁신적인 기술을 선보입니다."
     }

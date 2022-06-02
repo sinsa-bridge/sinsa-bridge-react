@@ -2,43 +2,43 @@
     {
         "id" : 1,
         "page" : "company",
-        "imgUrl" : "/sinsa-bridge-react/img/topbanner_01.jpg",
+        "imgUrl" : "/img/topbanner_01.jpg",
         "tit": "회사소개"
     },
     {
         "id" : 2,
         "page" : "welfare",
-        "imgUrl" : "/sinsa-bridge-react/img/topbanner_02.jpg",
+        "imgUrl" : "/img/topbanner_02.jpg",
         "tit": "복지제도"
     },
     {
         "id" : 3,
         "page" : "way",
-        "imgUrl" : "/sinsa-bridge-react/img/topbanner_03.jpg",
+        "imgUrl" : "/img/topbanner_03.jpg",
         "tit": "오시는길"
     },
     {
         "id" : 4,
         "page" : "service",
-        "imgUrl" : "/sinsa-bridge-react/img/topbanner_04.jpg",
+        "imgUrl" : "/img/topbanner_04.jpg",
         "tit": "IT Service"
     },
     {
         "id" : 5,
         "page" : "talent",
-        "imgUrl" : "/sinsa-bridge-react/img/topbanner_05.jpg",
+        "imgUrl" : "/img/topbanner_05.jpg",
         "tit": "인재상"
     },
     {
         "id" : 6,
         "page" : "way",
-        "imgUrl" : "/sinsa-bridge-react/img/topbanner_06.jpg",
+        "imgUrl" : "/img/topbanner_06.jpg",
         "tit": "영입절차"
     },
     {
         "id" : 7,
         "page" : "contact",
-        "imgUrl" : "/sinsa-bridge-react/img/topbanner_07.jpg",
+        "imgUrl" : "/img/topbanner_07.jpg",
         "tit": "고객문의"
     }
 ]

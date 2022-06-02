@@ -9,7 +9,7 @@ function TopBanner({topBannerID}){
     const [loading,setLoading] = useState(false);
 
     useEffect(()=>{
-        fetch('/sinsa-bridge-react/data/topbanner.json',{
+        fetch('/data/topbanner.json',{
             method: 'GET'
         })
          .then(res => res.json())
