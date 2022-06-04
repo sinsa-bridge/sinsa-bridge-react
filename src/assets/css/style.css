@@ -7,6 +7,25 @@
   font-style: normal;
 }
 
+@font-face {
+	font-family: 'Gmarket Sans';    font-style: normal;    font-weight: 700;
+	src: local('Gmarket Sans Bold'), local('GmarketSans-Bold'),
+	url('../fonts/GmarketSansBold.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+	url('../fonts/GmarketSansBold.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+@font-face {
+	font-family: 'Gmarket Sans';    font-style: normal;    font-weight: 500;
+	src: local('Gmarket Sans Medium'), local('GmarketSans-Medium'),
+	url('../fonts/GmarketSansMedium.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+	url('../fonts/GmarketSansMedium.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+@font-face {
+	font-family: 'Gmarket Sans';    font-style: normal;    font-weight: 300;
+	src: local('Gmarket Sans Light'), local('GmarketSans-Light'),
+	url('../fonts/GmarketSansLight.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+	url('../fonts/GmarketSansLight.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 body{
   font-family: 'Pretendard-Regular', sans-serif;
   letter-spacing: -0.5px;
@@ -184,10 +203,12 @@ body{
   justify-content: space-between;
 }
 .m-header button{
-  margin:0.5rem 0;
+  /* margin:0.5rem 0; */
+  padding:0;
   border:0;
   background:0;
 }
+.m-header button img{ width:80%;}
 .m-header .navbar-brand > a{
   letter-spacing: 0;
 }
@@ -659,3 +680,8 @@ body{
 .contact ul li a .icon{ display:inline-block; width:30px; height:30px; background:#eee; }
 .contact ul li a .email-icon{ background:url('../../assets/img/contact-icon01.png') center no-repeat; background-size:contain; }
 .contact ul li a .kakao-icon{ background:url('../../assets/img/contact-icon02.png') center no-repeat; background-size:contain; }
+
+@media (max-width: 768px) {
+  .mainCareers h2{ font-size:2.5rem; line-height: 3.5rem; }
+  .service .content strong{ font-size:1.5rem; }
+}
