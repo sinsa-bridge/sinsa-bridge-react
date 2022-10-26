@@ -20,7 +20,7 @@ function Footer(){
                 { view == true ? 
                 <div className="info">
                     <span><b>(주)신사브릿지</b></span><br/>
-                    <span>서울특별시 중구 회현동 세종대로 14-1<br/>그랜드센트럴 빌딩 9층, 11층</span><br/>
+                    <span>경기도 김포시 김포한강9로 75번길 158, B111호</span><br/>
                     <span><b>대표이사</b> 조은정</span><br/>
                     <span><b>대표전화</b> 070-7847-6600</span><br/>
                     <p className="copyright">© sinsabridge Corp. All rights reserved.</p>
@@ -28,7 +28,7 @@ function Footer(){
                 :
                 <div className="info">
                     <span>(주)신사브릿지</span>
-                    <span>서울특별시 중구 회현동 세종대로 14-1 그랜드센트럴 빌딩 9층, 11층</span>
+                    <span>경기도 김포시 김포한강9로 75번길 158, B111호</span>
                     <span>대표이사 조은정</span>
                     <span>대표전화 070-7847-6600</span>
                     <p className="copyright">© sinsabridge Corp. All rights reserved.</p>
